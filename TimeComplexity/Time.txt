@@ -1,0 +1,35 @@
+Best Case : 1 : Omega(1)
+Average : n : Theta(n+1/2)
+Worst Case : Big O(n)   *
+
+****************************************************************************
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+for(int i = 1; i <= n; i++){
+	System.out.println("Blue Sky");       Time Complexity : Big O(n)
+}
+
+
+*****************************************************************************
+int m = sc.nextInt();
+
+for(int i = 1; i <= n; i++){
+	for(int j = 1; j <= m; j++){
+		System.out.println("Blue Sky");       Time Complexity : Big O()m*n
+	}
+}
+
+****************************************************************************
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int m = sc.nextInt();
+for(int i = 1; i <= n; i++){
+	System.out.println("Blue Sky");       Time Complexity : Big O(n)
+}
+												Total : (m+n)
+for(int i = 1; i <= m; i++){
+	System.out.println("Blue Sky");       Time Complexity : Big O(m)
+}

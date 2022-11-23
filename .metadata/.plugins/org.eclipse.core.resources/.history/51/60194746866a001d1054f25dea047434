@@ -1,0 +1,27 @@
+
+public class First {
+	public static void main(String[] args) {
+		System.out.println("Jay Ganesh");
+		int i = 1;
+//		for(i = 1; i < 100; i++) {
+//			System.out.println(i + " Jay Ganesh");
+//		}
+		
+		int a = 12;
+		System.out.println(a);
+		float b = 12.3f;
+		System.out.println(b);
+		double d = 23.23;
+		System.out.println(d);
+		float f = a;
+		System.out.println(f);
+		
+		// Type casting
+		int h = (int)b;
+		System.out.println("Typecasting : " + h);
+		
+		int max = 1234567891;
+		System.out.println("Maximum Integer : " + max);
+	}
+
+}
