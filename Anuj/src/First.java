@@ -2,7 +2,7 @@
 public class First {
 	public static void main(String[] args) {
 		System.out.println("Jay Ganesh");
-		int i = 1;
+		//int i = 1;
 //		for(i = 1; i < 100; i++) {
 //			System.out.println(i + " Jay Ganesh");
 //		}
@@ -23,11 +23,11 @@ public class First {
 		int max = 1234567891;
 		System.out.println("Maximum Integer : " + max);
 	
-		byte j = 23;
-		System.out.println("Byte : " + j);
-		byte jk = 12;
-		byte addi = (byte)(j + jk);
-		System.out.println("Addition : " + addi);
+		//byte j = 23;
+		//System.out.println("Byte : " + j);
+//		byte jk = 12;
+//		byte addi = (byte)(j + jk);
+//		System.out.println("Addition : " + addi);
 		
 		boolean remark = true;
 		System.out.println(remark);
@@ -71,6 +71,33 @@ public class First {
 		
 		boolean y = false;
 		System.out.println(!y);
+		
+		long sdd = 12345678987654L;
+		System.out.print(sdd);
+		
+		int nume = 89;
+		switch(nume) {
+		case 12:
+			System.out.print("\nSuccess");
+			break;
+		case 1:
+			System.out.print("\nNA");
+			break;
+		default:
+			System.out.print("\nDefault");
+			
+		}
+		int i;
+		int j;
+		for(i = 0; i < 10; i++) {
+			for(j = 0; j < 3; j++) {
+				
+				System.out.println(" : " + i + " : " + j);
+			}
+			if(i == 5) {
+				continue;
+			}
+		}
 		
 	}
 
